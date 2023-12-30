@@ -1,0 +1,13 @@
+template-file-path: gitsync-wp-poc.yaml
+parameters:
+  KeyName: lamp-stack-poc
+  SSHLocation: 134.238.229.90/32
+  DBPassword: '****'
+  DBName: wordpressdb
+  DBUser: '****'
+  DBRootPassword: '****'
+  InstanceType: t2.small
+tags:
+  owner: chandra-2023
+  asset: chandra-poc
+  cost-center: '831702'
